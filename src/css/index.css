@@ -1,0 +1,112 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+i {
+  font-weight: 100;
+  font-style: normal;
+}
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+a {
+  color: #666;
+  text-decoration: none;
+  outline: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.clearF::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+body{
+  font-family: "PingFang SC",Arial,"Microsoft YaHei",sans-serif;
+}
+
+@media screen and (min-width:960px){::-webkit-scrollbar{background-color:rgba(0,0,0,.5);width:5px;height:100%;border-radius:0}::-webkit-scrollbar-track{background-color:#333}::-webkit-scrollbar-thumb{background-color:#009624}}body,html{height:100%}body{background-image:-o-linear-gradient(45deg,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/public/bg.jpg);background-image:linear-gradient(45deg,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/public/bg.jpg);background-size:cover;background-position:50%;background-repeat:no-repeat}section.notice-container{width:100%;max-width:800px;-webkit-box-shadow:0 0 10px rgba(0,0,0,.3);box-shadow:0 0 10px rgba(0,0,0,.3);padding:40px 10px;position:fixed;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background-color:#00b2ff;border-radius:10px}section.notice-container .notice-view{width:90%;-webkit-box-sizing:border-box;box-sizing:border-box;background-color:#fff;border-radius:10px;padding:20px 25px;font-size:16px;margin:0 auto 20px;height:500px;overflow-y:auto}section.notice-container .notice-view h2{font-weight:700;font-size:20px;margin-bottom:20px}section.notice-container .notice-view .center{text-align:center}section.notice-container .notice-view .bold{font-weight:700}section.notice-container .notice-view i{font-weight:700;display:inline}section.notice-container .notice-view p{line-height:1.5;margin-bottom:10px;text-indent:2em;color:#333}section.notice-container .notice-view li{margin-bottom:20px}section.notice-container .notice-view span.bggreen{background-color:#009624;color:#fff;padding:3px 5px}section.notice-container .notice-view span.red{color:red;padding:3px 5px;background-color:#ff0}section.notice-container .notice-view table td,section.notice-container .notice-view table th{text-align:center;vertical-align:middle;padding:10px;border:1px solid #ccc}section.notice-container .notice-view table th{background-color:#ff0;padding:10px;width:50%}section.notice-container .notice-view table th:first-child,section.notice-container .notice-view table th:last-child{width:25%}section.notice-container .notice-view img{max-width:100%}@media screen and (max-width:500px){section.notice-container .notice-view{font-size:12px}}section.notice-container h1{text-align:center;color:#fff;font-size:24px;margin-bottom:20px;font-weight:700}section.notice-container button{border:none;outline:none;padding:8px 20px;display:block;margin:0 auto;cursor:pointer;border-radius:20px;background-color:#fff;font-weight:700;color:#00b2ff}@media screen and (max-width:500px){section.notice-container{height:100vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}}section.subject{display:none;width:100%;max-width:750px;background-size:cover;background-position:50%;background-repeat:no-repeat;height:100vh;margin:0 auto;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}section.subject .subject-content{width:90%;padding:30px 0;margin:0 auto;border-radius:10px;background-color:hsla(0,0%,100%,.9)}section.subject .subject-content .subject-list{padding:10px 30px}section.subject .subject-content .subject-list h2.title{font-size:24px;font-weight:400;margin-bottom:30px}section.subject .subject-content .subject-list ul.subject-select li.subject-option{width:50%;min-width:200px;font-size:18px;line-height:2;border-radius:40px;background-color:#00b2ff;color:#fff;margin:0 auto 20px;padding:10px 20px;cursor:pointer}section.subject .subject-content .subject-list ul.subject-select li.subject-option.success{background-color:#009624}section.subject .subject-content .subject-list ul.subject-select li.subject-option.error{background-color:red;-webkit-animation:shaking .3s linear;animation:shaking .3s linear}section.subject .subject-content .subject-list{text-align:center}section.subject .subject-content .subject-list:not(:first-child){display:none}ul.contact-wrapper{display:none;width:100%;max-width:750px;background-size:cover;background-position:50%;background-repeat:no-repeat;height:100vh;margin:0 auto;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-line-pack:center;align-content:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}ul.contact-wrapper li.contact-item{background-color:#fff;width:90%;border-radius:31px;margin:0 auto 20px;display:block;padding:12px 24px;font-size:20px;-webkit-box-sizing:border-box;box-sizing:border-box}aside.qq-service{position:fixed;right:0;top:5%;-webkit-box-shadow:0 0 10px rgba(0,0,0,.1);box-shadow:0 0 10px rgba(0,0,0,.1);cursor:pointer}aside.qq-service .click,aside.qq-service .toggle{float:left}aside.qq-service a{display:block;padding:10px;background-color:#00b2ff;text-align:center}aside.qq-service a p{text-align:center;color:#fff}@-webkit-keyframes shaking{0%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}50%{-webkit-transform:translateX(2px);transform:translateX(2px)}to{-webkit-transform:translateX(-2px);transform:translateX(-2px)}}@keyframes shaking{0%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}50%{-webkit-transform:translateX(2px);transform:translateX(2px)}to{-webkit-transform:translateX(-2px);transform:translateX(-2px)}}
